@@ -1,0 +1,406 @@
+body {
+
+    margin: 0%;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(243, 243, 235);
+    text-align: left;
+    padding: 2px;
+}
+
+h1 {
+    margin: 2%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+ul {
+    display: flex;
+    margin: 0%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding: 20px;
+    padding-left: 60%;
+    margin-top: -90px;
+}
+
+li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 20px;
+    margin: 5px;
+    list-style-type: none;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600px;
+    font-style: normal;
+    text-align: center;
+}
+
+/* Estilos para article1 */
+.article1 {
+    background-image: url(imagenes/mountain-7863224_1280.jpg);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 5%;
+    transition: transform 0.5s ease; /* Agrega una transición suave */
+}
+
+.article1:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el cursor */
+}
+
+/* Estilos para article2 */
+.article2 {
+    background-image: url(imagenes/pexels-mary-taylor-6009258.jpg);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 5%;
+    transition: transform 0.5s ease; /* Agrega una transición suave */
+}
+
+.article2:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el cursor */
+}
+
+/* Estilos para article3 */
+.article3 {
+    background-image: url(imagenes/pexels-riccardo-vespa-594469796-18356796.jpg);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(247, 249, 250);
+    border-radius: 5%;
+    transition: transform 0.5s ease; /* Agrega una transición suave */
+}
+
+.article3:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el cursor */
+}
+
+section {
+    box-sizing: border-box;
+    margin-right: 8%;
+    float: right;
+    display: inline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: rgb(216, 210, 210);
+    margin: 0%;
+    padding: 0px;
+ }
+ 
+ header{
+    background-color: rgb(243, 243, 235);
+    text-align: left;
+    padding: 2px;
+    
+ }
+ h1{
+    margin: 2%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+ }
+ ul{
+    display: flex;
+    margin: 0%;font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding: 20px;
+ padding-left: 60%;
+ margin-top: -90px;
+ }
+ li{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 20px;
+    margin: 5px;
+    list-style-type: none;
+    }
+
+h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600px;
+    font-style: normal;
+    text-align: center;
+
+
+}
+
+    .article1{
+        background-image: url(imagenes/mountain-7863224_1280.jpg);
+        height: 300px; 
+        width: 300px;/* Altura de la sección es igual a la altura del viewport */
+        background-size: cover; /* Escala la imagen para cubrir toda la sección */
+        background-position: center; /* Centra la imagen */
+        background-repeat: no-repeat;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: aliceblue;
+        border-radius: 5%;
+    }
+        
+
+        .article2{
+            background-image: url(imagenes/pexels-mary-taylor-6009258.jpg);
+            height: 300px; 
+            width: 300px;/* Altura de la sección es igual a la altura del viewport */
+            background-size: cover; /* Escala la imagen para cubrir toda la sección */
+            background-position: center; /* Centra la imagen */
+            background-repeat: no-repeat;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: aliceblue;
+            border-radius: 5%;
+        }
+        
+            
+            .article3{
+                background-image: url(imagenes/pexels-riccardo-vespa-594469796-18356796.jpg);
+                height: 300px; 
+                width: 300px;/* Altura de la sección es igual a la altura del viewport */
+                background-size: cover; /* Escala la imagen para cubrir toda la sección */
+                background-position: center; /* Centra la imagen */
+                background-repeat: no-repeat;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                color: rgb(247, 249, 250);
+                border-radius: 5%;
+                
+             
+            }
+                
+    section{
+        box-sizing: border-box;
+        margin-right: 8%;
+        float: right;
+        display: inline;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* nuevo cambio */
+
+
+    body {
+        margin: 0%;
+        padding: 0px;
+    }
+    
+    header {
+        background-color: rgb(243, 243, 235);
+        padding: 2px;
+    }
+    
+    h1 {
+        margin: 2%;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    }
+    
+    ul {
+        display: flex;
+        margin: 0%;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        padding: 20px;
+        padding-left: 60%;
+        margin-top: -90px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+        
+    }
+    a:hover{
+            color: rgb(210, 223, 223);
+    }
+    
+    li {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        padding: 20px;
+        margin: 5px;
+        list-style-type: none;
+        border: 20px;
+        border-color: black;
+    }
+    
+    h2 {
+        font-family: "Fruktur", system-ui;
+      font-weight: 400px;
+      font-style: italic;
+        text-align: center;
+        padding: 30px;
+    }
+    
+    div{
+        margin: 5%;
+        background-color: rgb(241, 241, 247);
+    }
+    .article1 {
+        background-image: url(imagenes/mountain-7863224_1280.jpg);
+        height: 300px;
+        width: 300px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: aliceblue;
+        border-radius: 5%;
+        transition: transform 0.3s ease; 
+    }
+    
+    .article1:hover {
+        transform: scale(1.1); 
+    }
+    
+    .article2 {
+        background-image: url(imagenes/pexels-mary-taylor-6009258.jpg);
+        height: 300px;
+        width: 300px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: aliceblue;
+        border-radius: 5%;
+        transition: transform 0.5s ease; 
+    }
+    
+    .article2:hover {
+        transform: scale(1.1); 
+    }
+    
+    
+    .article3 {
+        background-image: url(imagenes/pexels-riccardo-vespa-594469796-18356796.jpg);
+        height: 300px;
+        width: 300px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: rgb(247, 249, 250);
+        border-radius: 5%;
+        transition: transform 0.5s ease; 
+    }
+    
+    .article3:hover {
+        transform: scale(1.1); 
+        
+        
+    }
+    
+    section {
+        box-sizing: border-box;
+        margin-right: 8%;
+        float: right;
+        display: inline;
+    
+    }
+    .texto{
+        margin-top: 400px;
+    }
+    .articles-container{
+        background-color: aqua;
+    }

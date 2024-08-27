@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 232, 232);
+}
+
+header {
+    background-color: rgb(243, 243, 235);
+    padding: 2px;
+    text-align: left;
+}
+
+h1 {
+    margin: 2%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 20px;
+    padding-left: 60%;
+    margin-top: -90px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(210, 223, 223);
+}
+
+li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding: 20px;
+    margin: 5px;
+    list-style-type: none;
+}
+
+h2 {
+    font-family: "Fruktur", system-ui;
+    font-weight: 400px;
+    font-style: italic;
+    text-align: center;
+    padding: 30px;
+}
+
+.articles-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+
+.article1, .article2, .article3 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 5%;
+    transition: transform 0.3s ease;
+    margin: 10px;
+}
+
+.article1 {
+    background-image: url('imagenes/mountain-7863224_1280.jpg');
+}
+
+.article2 {
+    background-image: url('imagenes/pexels-mary-taylor-6009258.jpg');
+}
+
+.article3 {
+    background-image: url('imagenes/pexels-riccardo-vespa-594469796-18356796.jpg');
+    color: rgb(250, 247, 248);
+}
+
+.article1:hover, .article2:hover, .article3:hover {
+    transform: scale(1.1);
+}
+
+.articles-container {
+    margin: 20px;
+  
+} 
+
+.hr{border: none; 
+    height: 10px; 
+    width: 100%;
+    background-color: #faf4f4; 
+    margin: 0px;
+}
+
+
+
+.texto {
+    max-width: 1200px; 
+    padding: 20px; 
+    background-color: rgb(219, 213, 213);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    padding-right:  800px;
+    height: 1390px;
+}
+
+.segunda-parte img {
+    position: relative;
+    top: -1100px;
+    left: 700px;
+    margin-left: 20px; 
+    max-width: 500px;
+    height: auto; 
+    margin: 10px;
+}
+
+
+.texto h3 {
+    color: #1b1b1b;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+.texto h4 {
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+.texto p {
+    color: #666666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+.parte-tres{
+    margin: 4%;
+}
+.noticias-recientes{
+    display: flex;
+    margin: 2%;
+}
+.descripcion-corta{
+    font-size: 17px;
+    width: 400px;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    margin: 20x;
+}
+.descripcion{
+    font-size: 16px;
+    margin: 20px;
+    font-family: "Montserrat", sans-serif;
+    width: 400px;
+
+}
+h5{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+ 
+
+
+footer {
+    background-color: rgb(230, 182, 218); 
+    color: #f1eaea; 
+    padding: 20px 0; 
+    text-align: center; 
+    font-family: "Montserrat", sans-serif; /
+}
+
+.footer-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+
+.social-media {
+    display: flex; 
+    justify-content: flex-start; 
+    gap: 40px; 
+}
+
+.social-media a img {
+    width: 30px; 
+    height: 30px; 
+ 
+}
+
+.vertical-line {
+    width: 1px; 
+    background-color: #666; 
+    height: 80px; 
+}
+
+.footer-info {
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; }
+
+
+
+.footer-info p strong {
+    color: #f1eded; 
+}
+
+footer a {
+    color: #333; 
+    text-decoration: none; 
+}
+
+h6{
+    color: #ffff;
+    font-size: 16px;
+}
