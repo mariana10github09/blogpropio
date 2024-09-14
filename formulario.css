@@ -1,0 +1,162 @@
+
+body {
+    
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin:2%;
+
+}
+
+.container-header, .container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    height: 200px;
+    background-color: #fcfcfc;
+    color: #d61b1b;
+    box-shadow: 0 0 10px rgba(104, 31, 2, 0.1);
+    width: 95%;
+    margin-left: 40px;
+}
+
+.container-header nav ul {
+    list-style: none;
+   display: flex;
+    padding-left: 90PX;
+    gap: 15px;
+    text-align: center;
+   
+}
+
+.container-header nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.container-header nav ul li a:hover {
+    color: #000000;
+    
+}
+li{
+    padding-left: 50px ;
+}
+
+.menu{
+    padding-right:630px ;
+    
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 10px rgba(235, 86, 1, 0.1);
+    color: #333;
+}
+
+.container-p {
+    padding-left: 8%;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    grid-template-rows: 150px 50px 250px 100px 100px ;
+    gap: 20px;
+    width:auto;
+}
+
+.cont-h {
+    align-items: baseline;
+    width: auto;
+}
+.nave{
+    color:#83C5BE;
+}
+a:hover{
+    color:#83C5BE;
+
+}
+.c1 {
+    background-color: #FFDDD2 ;
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:auto;
+    border: 1px solid black;
+}
+
+.c1 img {
+    border-radius: 20%;
+}
+
+.c2 {
+    background-color: #83C5BE;
+    grid-column: 4/12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+.c3 {
+    background-color:#FFDDD2  ;
+    grid-column: 1/12;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+
+}
+
+.linea {
+    margin-top: 10px;
+    border-left: 3px solid black;
+    height: 25px;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+nav ul li {
+    display: flex;
+    text-align: center;
+    font-weight: 100;
+    font-size: smaller;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 15px;
+    color: rgb(49, 46, 46);
+}
+
+.content {
+  background-color: rgb(252, 236, 236); 
+    padding: 40px;
+    max-width: 800px;
+   margin: 50px;
+    border: 1px solid black;
+}
